@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+}
+
+.container {
+    background-image: url("https://cdn.vectorstock.com/i/500p/18/92/cartoon-basketball-court-vector-42511892.jpg");
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+}
+
+.score-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.score-container h3 {
+    color: white;
+    font-style: bold;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0 0 3px black;
+    margin-bottom: 21px;
+}
+
+@font-face {
+    src: url("CursedTimerUlil-Aznm.ttf");
+    font-family: 'CursedTimer';
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'CursedTimer';
+    font-weight: 400;
+    font-size: 90px;
+    color: #E07265;
+    background-color: #DECCA5;
+    width: 155px;
+    height: 120px;
+}
+
+.buttons-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 155px;
+    margin-top: 10px;
+    
+}
+
+button {
+    width: 45px;
+    height: 45px;
+    border: 2px solid black;
+    border-radius: 2px;
+    background-color: inherit;
+    color: black;
+    font-family: 'CursedTimer';
+    
+}
+
+#restart-btn {
+    width: 100px;
+}
